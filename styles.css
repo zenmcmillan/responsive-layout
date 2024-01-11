@@ -57,14 +57,20 @@ body {
 }
 
 @media screen and (max-width: 430px) {
+
+  body {
+    overflow-y: hidden;
+  }
+
   .middle-section {
     flex-direction: column;
+    margin: 4% 0 4%;
     height: 100%;
   }
 
   .red-orange-container {
     width: 100%;
-    height: 90%;
+    height: 100%;
   }
   
   .red-box {
@@ -82,4 +88,12 @@ body {
     height: 40%;
   }
 
+  .header {
+    width: 100%;
+  }
+ 
+  .footer {
+    width: 100%;
+    margin-bottom: -1.8em;
+  }
 }
