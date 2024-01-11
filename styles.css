@@ -7,18 +7,19 @@ body {
 }
 
 .header {
-  background-color: grey;
+  background-color: #c9c9c9;
   height: 13%;
 }
 
 .footer {
-  background-color: grey;
+  background-color: #c9c9c9;
   height: 13%;
 }
 
 .middle-section {
   display: flex;
   flex-direction: row;
+  margin: 1.5% 0 1.5%;
   height: 80%;
 }
 
